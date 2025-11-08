@@ -6,8 +6,16 @@
   <meta name="robots" content="noindex"/>
   <meta http-equiv="Cache-Control" content="no-store"/>
   <title>Abi’s Private World</title>
+  
+  <!-- Vercel Web Analytics Script (for static sites) -->
+  <script type="module">
+    import { inject } from '@vercel/analytics';
+    inject();
+  </script>
+  
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900;700;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
+    /* [Your existing styles – unchanged] */
     * { margin:0; padding:0; box-sizing:border-box; }
     body, html { height:100%; overflow-x:hidden; background:#000; font-family:'Inter',sans-serif; }
     
@@ -84,7 +92,7 @@
   <footer>© Abi 2025 • All rights reserved</footer>
 
   <script>
-    // UTM Badge (client-side only)
+    // UTM Badge Script
     const params = new URLSearchParams(window.location.search);
     const src = params.get('utm_source') || '';
     let badge = '';
