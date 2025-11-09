@@ -1,105 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex"/>
-  <meta http-equiv="Cache-Control" content="no-store"/>
-  <title>Abi’s Private World</title>
-  
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900;700;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abi's World</title>
   <style>
-    /* [Your existing styles – unchanged] */
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body, html { height:100%; overflow-x:hidden; background:#000; font-family:'Inter',sans-serif; }
-    
-    .hero {
-      min-height:100vh; background:linear-gradient(135deg, #1a1a1a 0%, #2d1b3a 100%);
-      position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center;
-      text-align:center; color:white; padding:20px;
-    }
-    .abi-img {
-      width:85%; max-width:380px; border-radius:28px; border:4px solid #FF69B4; box-shadow:0 20px 40px rgba(255,105,180,0.4);
-      margin-bottom:24px; transition:transform 0.3s; animation:float 3s ease-in-out infinite;
-    }
-    .abi-img:hover { transform:scale(1.03); }
-    @keyframes float { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-12px);} }
-
-    h1 {
-      font-family:'Playfair Display',serif; font-size:44px; font-weight:700; margin-bottom:8px;
-      background:linear-gradient(90deg,#FF69B4,#FFD700); -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-    }
-    .subtitle { font-size:20px; opacity:0.9; margin-bottom:30px; font-weight:500; }
-    .exclusive { font-size:14px; color:#FFD700; margin-bottom:16px; text-transform:uppercase; letter-spacing:1px; }
-
-    .btn {
-      width:88%; max-width:360px; height:62px; margin:10px auto; border-radius:32px; font-weight:700; font-size:19px;
-      cursor:pointer; transition:all 0.3s; display:block; text-decoration:none; line-height:62px; text-align:center;
-      box-shadow:0 8px 20px rgba(0,0,0,0.3); position:relative; overflow:hidden;
-    }
-    .btn::before {
-      content:''; position:absolute; top:0; left:-100%; width:100%; height:100%; background:linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent);
-      transition:0.6s;
-    }
-    .btn:hover::before { left:100%; }
-    .btn.pink { background:linear-gradient(45deg,#FF1493,#FF69B4); color:white; }
-    .btn.gold { background:linear-gradient(45deg,#FFD700,#FFA500); color:#000; }
-    .btn.free { background:linear-gradient(45deg,#00FF88,#00C853); color:white; }
-    .btn:hover { transform:translateY(-3px); box-shadow:0 12px 25px rgba(255,105,180,0.5); }
-
-    #sourceBadge {
-      position:fixed; bottom:18px; left:18px; background:rgba(255,255,255,0.15); backdrop-filter:blur(10px);
-      color:white; padding:8px 16px; border-radius:30px; font-size:13px; font-weight:500; z-index:10;
-      border:1px solid rgba(255,255,255,0.2);
-    }
-
-    footer {
-      position:fixed; bottom:16px; width:100%; text-align:center; color:#666; font-size:11px; z-index:10;
-    }
-
-    @media (max-width:480px) {
-      h1{font-size:36px;} .subtitle{font-size:18px;} .abi-img{width:90%;}
-    }
+    body { font-family: 'Arial', sans-serif; text-align: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); margin: 0; padding: 20px; }
+    .container { max-width: 500px; margin: 0 auto; }
+    img { width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    h1 { color: #333; font-size: 2.5em; margin: 20px 0; }
+    p { color: #666; font-size: 1.2em; line-height: 1.6; }
+    .btn { background: #007bff; color: white; padding: 15px 30px; margin: 20px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; transition: background 0.3s; }
+    .btn:hover { background: #0056b3; }
+    footer { margin-top: 40px; color: #999; font-size: 0.9em; }
   </style>
 </head>
 <body>
-
-  <div class="hero">
-    <img src="main.jpeg" alt="Abi" class="abi-img">
-    
-    <h1>Abi’s Private World</h1>
-    <div class="exclusive">Exclusive • 18+ Only</div>
-    <p class="subtitle">Unlock my full album – pics, vids, & custom surprises</p>
-    
-    <a href="https://fanvue.com/abi/ppv/album1" class="btn pink" target="_blank">
-      Unlock Full Album – $9.99
-    </a>
-    <a href="https://fanvue.com/abi/tip?goal=custom" class="btn gold" target="_blank">
-      Spoil Abi – $50 Custom Vid
-    </a>
-    <a href="https://fanvue.com/abi" class="btn free" target="_blank">
-      Join My Fanvue for FREE
-    </a>
+  <div class="container">
+    <img src="https://kan-itc.co.uk/coffee.jpeg" alt="Abi enjoying coffee in Lisbon">
+    <h1>Hey, it's Abi</h1>
+    <p>Travel adventures, coffee moments, and exclusive vibes from around the world. Join for more behind-the-scenes stories and pics.</p>
+    <a href="/api/redirect" class="btn">Explore More with Abi</a>
+    <footer>&copy; 2025 Abi. All rights reserved.</footer>
   </div>
-
-  <div id="sourceBadge"></div>
-  <footer>© Abi 2025 • All rights reserved</footer>
-
-  <script>
-    // UTM Badge Script
-    const params = new URLSearchParams(window.location.search);
-    const src = params.get('utm_source') || '';
-    let badge = '';
-    if (src.includes('cute')) badge = `☕ @${src.split('_')[1].replace(/[0-9]/g,'')}`;
-    else if (src.includes('sexy')) badge = `🔥 @${src.split('_')[1].replace(/[0-9]/g,'')}`;
-    else if (src.includes('findom')) badge = `👠 @${src.split('_')[1].replace(/[0-9]/g,'')}`;
-    if (badge) document.getElementById('sourceBadge').innerText = `You came from ${badge}`;
-  </script>
-
 </body>
 </html>
